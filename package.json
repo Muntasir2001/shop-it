@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "webpack"
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
