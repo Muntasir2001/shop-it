@@ -1,0 +1,127 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* utilites */
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:visited {
+   text-decoration: none;
+   color: none;
+}
+
+h1 {
+   font-family: 'Signika', sans-serif;
+}
+
+h2 {
+   font-family: 'Signika', sans-serif;
+   font-size: 2rem;
+}
+
+p, li, a, i {
+   font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+p {
+   font-size: 1.1rem;
+}
+
+/* home page */
+/* nav bar */
+nav {
+   display: flex;
+   background: #007373;
+   color: white;
+   justify-content: space-between;
+   flex-flow: row;
+   width: 100%;
+   height: 70px;
+   padding: 0 30px;
+   position: relative;
+   align-items: center;
+}
+
+nav .nav-items ul {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row;
+   padding-right: 200px;
+}
+
+nav .nav-items ul li a {
+   padding: 10px 20px;
+   margin: 0 5px;
+   text-transform: capitalize;
+}
+
+nav .nav-items .acc-dropdown {
+   /* margin-left: 900px; */
+   color: black;
+   position: absolute;
+   right: 10px;
+   top: 15px;
+}
+
+nav .nav-items .acc-dropdown a img {
+   width: 40px;
+   margin-top: 0;
+   position: absolute;
+   right: 80px;
+}
+
+nav .nav-items .acc-dropdown .acc-dropdown-content {
+   display: flex;
+   color: black;
+   /* justify-content: center;
+   align-items: center; */
+   flex-direction: column;
+   background: #007373;
+   padding: 10px;
+   margin-top: 60px;
+   /* position: absolute; */
+   /* display: flex; */
+   /* top: 40px; */
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+   width: 200px;
+   height: 200px;
+   /* background: white; */
+   /* left: 0px; */
+   /* list-style: none; */
+   border-radius: 5px;
+   /* opacity: 0; */
+   pointer-events: none;
+   transform: translateY(-10px);
+   transition: all 0.4s ease;
+   pointer-events: none;
+   opacity: 0;
+}
+
+nav .nav-items .acc-dropdown .acc-dropdown-content a {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav .nav-items .acc-dropdown .acc-dropdown-content a:hover {
+   background: #328f8f;
+}
+
+nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
+   opacity: 1;
+   pointer-events: all;
+}

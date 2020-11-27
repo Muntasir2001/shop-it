@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="design.css"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Signika:wght@300&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <header>
+      <nav>
+         <div class="logo">
+            <h2>ShopIt</h2>
+         </div>
+         <div class="nav-items">
+            <ul>
+               <li><a href="#">search product</a></li>
+               <li><a href="#">grab trolley</a></li>
+               <li><a href="#">get receipt</a></li>
+               <li><a href="#">history</a></li>
+            </ul>
+            <div class="acc-dropdown">
+               <a class="acc-logo" href="#"><img src="designs/accountw.svg" alt="Account"></a>
+               <div class="acc-dropdown-content">
+                  <a class="user" href="#">User</a>
+                  <a class="settings" href="#">Settings</a>
+                  <a class="faqs" href="#">FAQs</a>
+                  <a class="help" href="#">Help</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <script src="main.js"></script>
+</body>
+</html>
