@@ -1,32 +1,49 @@
-//filter tasks
-window.onload= function (){
-   //Your entire JS code here
-   const filterTasks = document.querySelector('#search-product');
+const productSection = document.querySelector('#p-section');
 
-   //event listener
-   filterTasks.addEventListener('keyup', filterTask);
 
-   //filter tasks functions
-   function filterTask(e) {
-      const text = e.target.value.toLowerCase();
+const URL = 'http://localhost:5000/products/';
 
-      console.log(text);
+const getProducts = async () => {
+   fetch ('https://muntasir-shopit.herokuapp.com/products/')
+      .then(response => response.json())
+      .then(data => {
+         console.log(data);
+         data.forEach(product => {
+            const { name, address, description } = product;
+            const storeName = 'Tesco';
+            let random = Object.values(address);
+            console.log(Array.isArray(random));
 
-      document.querySelectorAll('.product-name').forEach(function(task) {
-         console.log('i made it');
-         const item = task.firstChild.textContent;
-         if(item.toLowerCase().indexOf(text) != -1) {
-               // console.log('i made it 1');
-               task.parentNode.parentNode.style.display = 'block';
-               // console.log('i made it 2');
-         } else {
-               // console.log('i made it 3');
-               task.parentNode.parentNode.style.display = 'none';
-               // console.log('i made it 4');
-         }
+            let a = document.createElement('a');
+            let p1 = document.createElement('p');
+            let p2 = document.createElement('p');
+            let p3 = document.createElement('p');
+            let div = document.createElement('div');
+            let img = document.createElement('img');
+
+            img.setAttribute('src', './img/bread.jpg');
+            p1.className = 'product-name';
+            p2.className = 'store-name';
+            p3.className = 'address';
+            div.className = 'product';
+
+            p1.appendChild(document.createTextNode(`${name}`));
+            p2.appendChild(document.createTextNode(`${storeName}`));
+            p3.appendChild(document.createTextNode(`${random}`));
+            
+            div.appendChild(img);
+            div.appendChild(p1);
+            div.appendChild(p2);
+            div.appendChild(p3);
+
+            a.appendChild(div);
+            productSection.appendChild(a);
+         })
       });
-   }
+};
 
-}
+document.onload = getProducts();
+
+
 
 

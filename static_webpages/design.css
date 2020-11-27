@@ -499,3 +499,38 @@ footer .shrtcut ul li a:hover {
    color: #007373;
 }
 
+/* Testing */
+#p-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#p-section .product {
+   border: 4px solid #A3E1E1;
+   width: 1200px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   margin: 10px;
+   border-radius: 5px;
+   background-color: white;
+   align-items: center;
+   cursor: pointer;
+   color: #007373;
+   height: 80px;
+}
+
+#p-section .product p {
+   font-size: 1rem;
+   padding-right: 10px;
+   text-align: center;
+}
+
+#p-section .product img {
+   width: 50px;
+   padding-left: 10px;
+}
+
