@@ -4,7 +4,7 @@ const productSection = document.querySelector('#p-section');
 const URL = 'http://localhost:5000/products/';
 
 const getProducts = async () => {
-   fetch ('http://localhost:5000/products/')
+   fetch ('https://muntasir-shopit.herokuapp.com/products/')
       .then(response => response.json())
       .then(data => {
          console.log(data);
