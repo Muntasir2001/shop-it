@@ -1,4 +1,4 @@
-<h2>Shop-It Application
+<h2>Shop-It Application</h2>
 <p>Hello everyone! This project is based on making an application for the retailers and the consumers which will make their daily shopping more easier.<p>
 
 <h3>Current Stage:</h3>
