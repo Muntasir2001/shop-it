@@ -3,7 +3,7 @@
 
 <h3>Current Stage:</h3>
 <p>The frontend of the homepage is completed as well as the product listing. More update is going to be made where the products will actually be loaded from the database. Other features does not work as they have not been implemented yet.</p>
-<p>Although, a separate test page has been set to load the products from the database,the images of the product are currently loaded from my local machine</p>
+<p>A separate test page has been set to load the products from the database, and the images of the product are currently loaded from my local machine.</p>
 
 <p><b>Link of the website</b>: https://muntasirshopit.netlify.app/</p>
 <p><b>Link of the test website</b>: https://muntasirshopit.netlify.app/jstest.html</p>
