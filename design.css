@@ -534,3 +534,13 @@ footer .shrtcut ul li a:hover {
    padding-left: 10px;
 }
 
+/* Retailer-db  */
+/* navbar list */
+nav .db-nav-links ul {
+   display: flex;
+   flex-flow: row;
+}
+
+nav .db-nav-links ul li {
+   padding: 10px 20px;
+}
