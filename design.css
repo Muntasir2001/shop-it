@@ -562,9 +562,11 @@ nav .db-nav-links ul li {
 
 .product-form .product-form-elements input,.product-form .product-form-elements select{
    padding: 4px;
+   padding-left: 8px;
    font-size: 18px;
-   border-radius: 10px;
-   border: 0.5px solid #1e1e1e;
+   border-radius: 50px;
+   border: 1px solid rgb(202, 202, 202);
+   outline: none;
 }
 
 .product-form-elements{
@@ -580,4 +582,21 @@ nav .db-nav-links ul li {
 .product-form h1{
    font-size: 3rem;
    padding: 40px;
+}
+
+.product-form form .submit-button input{
+   font-size: 20px;
+   padding: 15px;
+   color: white;
+   background-color: #007373;
+   border: 0px solid black;
+   border-radius: 15px;
+   text-align: center;
+   outline: none;
+}
+
+.product-form form .submit-button{
+   padding: 40px;
+   display: flex;
+   justify-content: center;
 }
