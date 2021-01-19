@@ -29,7 +29,7 @@ h2 {
    font-size: 2rem;
 }
 
-p, li, a, i {
+p, li, a, i, label {
    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
@@ -543,4 +543,41 @@ nav .db-nav-links ul {
 
 nav .db-nav-links ul li {
    padding: 10px 20px;
+}
+
+/* retailer db form for adding product*/
+.product-form {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+}
+
+.product-form .product-form-elements{
+   padding: 10px;
+}
+
+.product-form .product-form-elements label{
+   font-size: 20px;
+}
+
+.product-form .product-form-elements input,.product-form .product-form-elements select{
+   padding: 4px;
+   font-size: 18px;
+   border-radius: 10px;
+   border: 0.5px solid #1e1e1e;
+}
+
+.product-form-elements{
+   width: 25rem;
+   display:flex;
+   justify-content: space-between;
+}
+
+.product-form-elements select{
+   width: 229px;
+}
+
+.product-form h1{
+   font-size: 3rem;
+   padding: 40px;
 }
