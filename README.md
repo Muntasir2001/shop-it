@@ -1,5 +1,5 @@
 <h2>Shop-It Application</h2>
-<p>Hello everyone! This project is based on making an application for the retailers and the consumers which will make their daily shopping more easier.<p>
+<p>This project is based on making an application for the retailers and the consumers which will make their daily shopping more easier.<p>
 
 <h3>Current Stage:</h3>
 <p>The frontend of the homepage is completed as well as the product listing. More update is going to be made where the products will actually be loaded from the database. Other features does not work as they have not been implemented yet.</p>
