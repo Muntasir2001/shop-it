@@ -63,6 +63,11 @@ nav .nav-items ul {
    padding-right: 200px;
 }
 
+/* temp css for index landing website */
+nav .nav-items .temp-index-css {
+   padding-right: 0;
+}
+
 nav .nav-items ul li a {
    padding: 10px 20px;
    margin: 0 5px;
@@ -151,7 +156,7 @@ nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
 }
 
 #section-1 .user-dashboard .search-product {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    background: white;
    padding: 20px;
    margin: 30px;
@@ -164,7 +169,7 @@ nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
 }
 
 #section-1 .user-dashboard .grab-trolley {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    background: white;
    padding: 20px;
    margin: 30px;
@@ -177,7 +182,7 @@ nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
 }
 
 #section-1 .user-dashboard .get-receipt {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    background: white;
    padding: 20px;
    margin: 30px;
@@ -190,7 +195,7 @@ nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
 }
 
 #section-1 .user-dashboard .history {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    background: white;
    padding: 20px;
    margin: 30px;
@@ -231,7 +236,7 @@ nav .nav-items .acc-dropdown .acc-logo:focus + .acc-dropdown-content {
 
 #section-2 {
    background-color: white;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    max-width: 1200px;
    margin: 10px auto;
 }
@@ -534,6 +539,36 @@ footer .shrtcut ul li a:hover {
    padding-left: 10px;
 }
 
+/* index landing page */
+/* navbar */
+#nav-index .index-nav-items ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+#nav-index .index-nav-items ul li {
+   padding: 30px;
+}
+
+#nav-index .index-nav-items ul li a:hover {
+   text-decoration: underline;
+}
+
+/* hero image */
+.welcome-image {
+   margin-bottom: 0;
+}
+
+.welcome-image img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* footer */
+.footer-index {
+   margin-top: 0;
+}
+ 
 /* Retailer-db  */
 /* navbar list */
 nav .db-nav-links ul {
