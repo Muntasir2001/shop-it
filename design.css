@@ -68,6 +68,8 @@ nav .nav-items .temp-index-css {
    padding-right: 0;
 }
 
+/* end of temp css */
+
 nav .nav-items ul li a {
    padding: 10px 20px;
    margin: 0 5px;
@@ -546,8 +548,9 @@ footer .shrtcut ul li a:hover {
    justify-content: space-between;
 }
 
-#nav-index .index-nav-items ul li {
-   padding: 30px;
+#nav-index .index-nav-items ul li a {
+   padding: 10px 20px;
+   margin: 0 5px;
 }
 
 #nav-index .index-nav-items ul li a:hover {
